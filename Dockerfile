@@ -23,5 +23,6 @@ VOLUME /flvs
 
 EXPOSE 80
 EXPOSE 1935
+
 ADD nginx.conf /usr/local/nginx/conf/
 CMD /usr/local/nginx/sbin/nginx
